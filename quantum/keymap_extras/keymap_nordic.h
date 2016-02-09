@@ -40,6 +40,8 @@
 #define NO_COLN LSFT(KC_DOT)
 #define NO_UNDS LSFT(NO_MINS)
 
+#define NO_ASTR LSFT(NO_APOS)
+
 // Alt Gr-ed characters
 #define NO_AT	ALGR(KC_2)
 #define NO_PND	ALGR(KC_3)
