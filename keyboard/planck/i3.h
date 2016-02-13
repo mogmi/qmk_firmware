@@ -39,5 +39,5 @@
 
 #define I3_LNCH LGUI(KC_D)
 #define I3_TERM LGUI(KC_ENT)
-
+#define I3_KILL LGUI(KC_Q)
 #endif
