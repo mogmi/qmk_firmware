@@ -16,11 +16,11 @@
 #define _LW 2
 #define _RS 3
 
-#define THUMB_ROW {M(0), KC_RGUI, KC_LGUI, KC_LCTL, KC_LSFT, MO(_LW), LT(_RS, KC_BSPC), LT(_I3, KC_SPC), KC_LALT, KC_DEL, KC_VOLD, KC_VOLU}
+#define THUMB_ROW {M(0), KC_RGUI, KC_LGUI, KC_LCTL, KC_LSFT, LT(_LW, KC_ESC), LT(_RS, KC_BSPC), LT(_I3, KC_SPC), KC_LALT, KC_DEL, KC_VOLD, KC_VOLU}
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_CM] = { /* Colemak */
   {KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,    KC_J,    KC_L,    KC_U,    KC_Y,    SV_OE,   SV_AA  },
-  {KC_ESC,  KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    SV_AE  },
+  {KC_APP,  KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    SV_AE  },
   {KC_BSPC, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT },
   THUMB_ROW
 },
