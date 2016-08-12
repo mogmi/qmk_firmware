@@ -22,7 +22,6 @@
 #define I3_DFLT LGUI(KC_E)
 #define I3_FULL LGUI(KC_F)
 
-#define I3_FLOT LGUI(KC_SPC)
 
 #define I3_FLFT LGUI(KC_LEFT)
 #define I3_FDWN LGUI(KC_DOWN)
@@ -40,4 +39,5 @@
 #define I3_LNCH LGUI(KC_D)
 #define I3_TERM LGUI(KC_ENT)
 #define I3_KILL LGUI(KC_Q)
+#define I3_MENU LGUI(KC_SPC)
 #endif
